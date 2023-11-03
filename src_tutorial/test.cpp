@@ -117,4 +117,5 @@ int main(void)
     cout << "trace: " << mat.trace() << endl;
 
     cout << "vector norm: " << v.norm() << endl;
+    
 }
