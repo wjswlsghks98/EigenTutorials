@@ -6,7 +6,8 @@ project(
     DESCRIPTION "Eigen Tutorials"
     LANGUAGES CXX)
 
-add_executable(test test.cpp)
+add_executable(test 
+    src_tutorial/test.cpp)
 add_compile_options(-std=c++17)
 target_compile_options(test PRIVATE -Wall -Werror)
 

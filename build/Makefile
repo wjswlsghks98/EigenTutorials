@@ -129,29 +129,29 @@ test/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
 .PHONY : test/fast
 
-test.o: test.cpp.o
-.PHONY : test.o
+src_tutorial/test.o: src_tutorial/test.cpp.o
+.PHONY : src_tutorial/test.o
 
 # target to build an object file
-test.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.cpp.o
-.PHONY : test.cpp.o
+src_tutorial/test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src_tutorial/test.cpp.o
+.PHONY : src_tutorial/test.cpp.o
 
-test.i: test.cpp.i
-.PHONY : test.i
+src_tutorial/test.i: src_tutorial/test.cpp.i
+.PHONY : src_tutorial/test.i
 
 # target to preprocess a source file
-test.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.cpp.i
-.PHONY : test.cpp.i
+src_tutorial/test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src_tutorial/test.cpp.i
+.PHONY : src_tutorial/test.cpp.i
 
-test.s: test.cpp.s
-.PHONY : test.s
+src_tutorial/test.s: src_tutorial/test.cpp.s
+.PHONY : src_tutorial/test.s
 
 # target to generate assembly for a file
-test.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.cpp.s
-.PHONY : test.cpp.s
+src_tutorial/test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src_tutorial/test.cpp.s
+.PHONY : src_tutorial/test.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... test"
-	@echo "... test.o"
-	@echo "... test.i"
-	@echo "... test.s"
+	@echo "... src_tutorial/test.o"
+	@echo "... src_tutorial/test.i"
+	@echo "... src_tutorial/test.s"
 .PHONY : help
 
 
