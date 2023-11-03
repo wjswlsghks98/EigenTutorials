@@ -45,7 +45,10 @@ int main(void)
     m.resize(4, 3);
     cout << "The matrix m is of size " << m.rows() << "x" << m.cols() << endl;
     
-
+    Eigen::VectorXd v(2);
+    v.resize(5);
+    cout << "The vector v is of size " << v.size() << endl;
+    cout << "As a matrix, v is of size " << v.rows() << "x" << v.cols() << endl;
 
     // Matrix convenient typedefs
     // Eigen::Matrix2d M; // 2*2 double matrix.

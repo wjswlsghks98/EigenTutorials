@@ -1,4 +1,4 @@
-# Install script for directory: /media/jinhwan/hdd1/SensorFusion/EigenTutorials
+# Install script for directory: /media/jinhwan/hdd1/EigenTutorials
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/media/jinhwan/hdd1/SensorFusion/EigenTutorials/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/media/jinhwan/hdd1/EigenTutorials/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
